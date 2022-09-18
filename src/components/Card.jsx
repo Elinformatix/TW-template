@@ -26,7 +26,7 @@ export default function Card({id, name, message, category, value, timeLeft}) {
         <img className="w-8 border-white border-[1px] rounded-full" src={avatar} alt="" /><span className="">Creation of <span className="transition-all duration-150 text-white cursor-pointer active:text-green-500">{name}</span></span>
       </div>
       
-      <button type="button" className="laran">Mint</button>
+      <button type="button" className="bg-[#FF4820] text-white mt-1 px-3 py-3 leading-6 font-Manrope text-lg  rounded-md ">Mint</button>
       
     </div>
   )

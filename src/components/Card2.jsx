@@ -25,7 +25,7 @@ export default function Card2({id, name, message, category, value, timeLeft}) {
       <div className="flex items-center max-h-4 text-sm gap-2">
         <img className="w-8 border-white border-[1px] rounded-full" src={avatar} alt="" /><span className="">Creation of <span className="transition-all duration-150 text-white cursor-pointer active:text-green-500">{name}</span></span>
       </div>
-      <button type="button" className="nono">Mint</button>
+      <button type="button" className="bg-[#343333] text-gray-500 mt-1 px-3 py-3 leading-6 font-Manrope text-lg  rounded-md ">Mint</button>
     </div>
   )
 }
