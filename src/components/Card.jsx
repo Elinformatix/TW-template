@@ -18,7 +18,7 @@ export default function Card({id, name, message, category, value, timeLeft}) {
       <h2 className="transition-all duration-150 active:text-green-500 cursor-pointer text-xl text-white font-bold">{category} #{id}</h2>
       <p>{message}</p>
       <div className="flex justify-between">
-        <span className="flex gap-2 text-green-500 font-bold"><img src={iconEthereum} alt=""/><span>{value} SUNSET</span></span>
+        <span className="flex gap-2 text-green-500 font-bold"><img src={iconEthereum} alt=""/><span>{value} $SUN</span></span>
         <span className="flex gap-2"><img src={iconClock} alt=""/><span>{timeLeft} left</span></span>
       </div>
       <hr className="opacity-30"/>
