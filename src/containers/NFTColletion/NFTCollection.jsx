@@ -8,7 +8,7 @@ import './NFTCollection.css';
 const NFTColletion = () => (
   <div className="gpt3__blog section__padding" >
     <div className="gpt3__blog-heading">
-      <h1 className="gradient__text">All levels, <br /> from beginner to expert.</h1>
+      <h1 className="gradient__text">Win tokens on each lesson and<br /> Redeem your NFT!</h1>
     </div>
     <div className="gpt3__blog-container">
     <Card
